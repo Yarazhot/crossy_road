@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7372224715754354138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5874842938198129586}
+  - component: {fileID: 6357181715105435089}
+  - component: {fileID: 8455791391445107115}
+  - component: {fileID: -1298026972729147026}
+  m_Layer: 0
+  m_Name: Train 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5874842938198129586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7372224715754354138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4768651820904970448}
+  - {fileID: 120039281571671521}
+  - {fileID: 5137704916426765372}
+  - {fileID: 8772459446689949228}
+  - {fileID: 2346658279702100124}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6357181715105435089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7372224715754354138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b373940772f119646bb99ce807058e50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 10
+--- !u!65 &8455791391445107115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7372224715754354138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.2, y: 1.5, z: 0.9}
+  m_Center: {x: -0.05, y: 0.75, z: 0}
+--- !u!82 &-1298026972729147026
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7372224715754354138}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f26fbd6d67a847b4a9597fc21738a0a7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 55
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1001 &797002718352326065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5874842938198129586}
+    m_Modifications:
+    - target: {fileID: 3143095800749480205, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_Name
+      value: Railway car (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9dfa80b8722f4c4186c4f39401b5ec1, type: 3}
+--- !u!4 &2346658279702100124 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+    type: 3}
+  m_PrefabInstance: {fileID: 797002718352326065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3041323849420007628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5874842938198129586}
+    m_Modifications:
+    - target: {fileID: 3143095800749480205, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_Name
+      value: Railway car (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9dfa80b8722f4c4186c4f39401b5ec1, type: 3}
+--- !u!4 &120039281571671521 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+    type: 3}
+  m_PrefabInstance: {fileID: 3041323849420007628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5917885599654552321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5874842938198129586}
+    m_Modifications:
+    - target: {fileID: 3143095800749480205, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_Name
+      value: Railway car (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9dfa80b8722f4c4186c4f39401b5ec1, type: 3}
+--- !u!4 &8772459446689949228 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+    type: 3}
+  m_PrefabInstance: {fileID: 5917885599654552321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7616470335272599037
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5874842938198129586}
+    m_Modifications:
+    - target: {fileID: 3143095800749480205, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_Name
+      value: Railway car
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9dfa80b8722f4c4186c4f39401b5ec1, type: 3}
+--- !u!4 &4768651820904970448 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7616470335272599037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7841417435907584273
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5874842938198129586}
+    m_Modifications:
+    - target: {fileID: 3143095800749480205, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_Name
+      value: Railway car (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9dfa80b8722f4c4186c4f39401b5ec1, type: 3}
+--- !u!4 &5137704916426765372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3143095800749770029, guid: b9dfa80b8722f4c4186c4f39401b5ec1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7841417435907584273}
+  m_PrefabAsset: {fileID: 0}
